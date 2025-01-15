@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# 펫네트워크(Pet-Netwrok)
+![image](https://github.com/user-attachments/assets/fd792e67-41ae-45bd-9b8c-83a0bb7be8d1)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 목차
+- [개요](#개요)
+- [시스템 구성도](#시스템-구성도)
+- [ERD](#ERD)
+- [사용기술](#사용기술)
+- [리뷰](#리뷰)
+- [트러블슈팅 & 피드백](#트러블슈팅--피드백)
+- [느낀 점](#느낀-점)
+- [API 문서](#API-문서)
+- [구현 기능](#구현-기능)
+- [배포](#배포)
 
-In the project directory, you can run:
+## 개요
+펫네트워크(PET-NETWORK)는 분산되어 있던 반려동물 쇼핑몰, 가계부, 커뮤니티, 동반 지도, 포인트 상점 등 다수의 서비스를 하나로 통합하여 사용자가 더욱 편리하고 폭넓은 경험을 누릴 수 있도록 기획된 올인원 플랫폼입니다. 
+기존에 쇼핑몰은 쇼핑몰대로, 커뮤니티는 커뮤니티대로 따로 접근해야 했던 번거로움을 해소하고, 지출 내역 역시 쇼핑 정보를 기반으로 자동 기록함으로써 반려동물을 위한 소비 패턴을 체계적으로 관리할 수 있게 하였습니다. 또한 정보 공유에 적극적인 반려인들이 커뮤니티를 통해 자유롭게 의견을 주고받고, 동반 지도 기능으로 반려동물과 함께 갈 수 있는 장소를 간편하게 확인하도록 지원합니다. 나아가 플랫폼 내 활동을 통해 적립한 포인트로 편의점상품을 구매할 수 있도록 하여 유저의 참여도를 높이는 동시에 혜택을 제공하는 선순환 구조를 구축하고자 하였습니다. 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

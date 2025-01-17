@@ -99,29 +99,29 @@ Back-End 요청/응답 흐름
 
 더 자세한 흐름은,
 
-1.User <-> React  
+1.User -> React  
 사용자가 React 프론트엔드에서 특정 작업(예: 버튼 클릭, 데이터 요청 등)을 수행합니다.
 React는 Axios나 Fetch API 등을 사용하여 백엔드로 HTTP 요청을 보냅니다.
 
-2.React <-> RestController  
+2.React -> RestController  
 React에서 보낸 HTTP 요청은 백엔드의 RestController로 전달됩니다.
 예를 들어, /api/cashbook/expense 경로에 대해 요청이 오면 해당 컨트롤러의 메서드가 실행됩니다.
 요청 데이터를 기반으로 적절한 작업을 수행할 수 있도록 Service 계층에 위임합니다.
 
-3.RestController <-> Service  
+3.RestController -> Service  
 RestController는 비즈니스 로직 처리를 위해 Service를 호출합니다.
 이 단계에서는 데이터를 가공하거나 요청의 유효성을 검사합니다.
 Service는 세부 로직 처리를 위해 ServiceImpl로 작업을 위임합니다.
 
-4.Service <-> ServiceImpl  
+4.Service -> ServiceImpl  
 Service는 인터페이스 역할을 하며, 구체적인 비즈니스 로직은 ServiceImpl에서 처리됩니다.
 데이터베이스 작업이 필요하면 Mapper를 호출합니다.
 
-5.ServiceImpl <-> Mapper  
+5.ServiceImpl -> Mapper  
 ServiceImpl은 Mapper(Java 인터페이스)를 호출하여 SQL 쿼리를 실행합니다.
 MyBatis가 Mapper(Java 인터페이스)와 Mapper(XML)를 연결하여 실제 SQL 쿼리를 실행합니다.
 
-6.Mapper <-> DB  
+6.Mapper -> DB  
 Mapper(XML)에 작성된 SQL이 실행되어 데이터베이스와 통신합니다.
 데이터베이스에서 데이터를 조회하거나 삽입/수정/삭제 작업을 수행합니다.
 DB에서 반환된 결과는 Mapper를 통해 ServiceImpl로 전달됩니다.

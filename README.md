@@ -235,10 +235,7 @@ React는 백엔드에서 전달받은 데이터를 화면에 렌더링합니다.
 
 
 <br><br><br>
-# ERD
-![image](https://github.com/user-attachments/assets/2a38a0b0-4ba6-4655-a79d-912a60c7e056)
 
-<br><br><br>
 
 # 아키텍처
 ![image](https://github.com/user-attachments/assets/e64aa413-80d6-4e52-9f14-d208c779e437)  
@@ -252,7 +249,10 @@ WEB서버는 퍼블릭 서브넷에 두고, 비즈니스 로직이 들어있는 
 
 <br><br><br>
 
+# ERD
+![image](https://github.com/user-attachments/assets/2a38a0b0-4ba6-4655-a79d-912a60c7e056)
 
+<br><br><br>
 
 
 

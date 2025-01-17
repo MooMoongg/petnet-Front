@@ -1,7 +1,7 @@
 
 # 목차
 - [펫네트워크(Pet-Netwrok) 개요](#펫네트워크pet-netwrok-개요)
-- [개발](#개발)
+- [사용기술](#사용기술)
 - [기능소개](#기능소개)
 - [Back-End 개발](#back-end-개발)
 - [트러블슈팅](#트러블슈팅)
@@ -20,6 +20,7 @@
 <br><br><br>
 
 
+# 사용기술
 ## 개발
 ![JAVA](https://img.shields.io/badge/JAVA-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
@@ -73,17 +74,17 @@
 
 # 기능소개
 ![image](https://github.com/user-attachments/assets/b4d4fd45-3799-446b-bef0-4b29a0e004cc)
-<br>
+<br><br>
 ![image](https://github.com/user-attachments/assets/d034e421-5da6-4551-a5ba-2a6567dab3ec)
-<br>
+<br><br>
 ![image](https://github.com/user-attachments/assets/e2942d19-4be9-45aa-9005-e759b1b3d753)
-<br>
+<br><br>
 ![image](https://github.com/user-attachments/assets/6d634416-3a88-4f7a-8648-f4004028c337)
-<br>
+<br><br>
 ![image](https://github.com/user-attachments/assets/665d4aa6-6799-45f7-98ef-28a2083a4c44)
-<br>
+<br><br>
 ![image](https://github.com/user-attachments/assets/bd2a87f3-5be2-49a4-a4cc-9d86974f1ebc)
-<br>
+<br><br>
 ![image](https://github.com/user-attachments/assets/b5ec1eaf-c5a0-4955-ae53-d8d6ef54af62)
 
 
